@@ -1,0 +1,318 @@
+{
+  "past_events": [
+    {
+      "title": "Tech Conference 2023",
+      "date": "2023-05-15",
+      "description": "A conference showcasing the latest in technology trends.",
+      "photos": "/Images/conference.jpg",
+      "key_takeaways": ["AI innovations", "Blockchain applications"]
+    },
+    {
+      "title": "Marketing Summit 2022",
+      "date": "2022-11-20",
+      "description": "A summit focused on digital marketing strategies.",
+      "photos": "/Images/summit.jpg",
+      "key_takeaways": ["Social media campaigns", "SEO tactics"]
+    },
+    {
+      "title": "Data Science Expo 2021",
+      "date": "2021-08-10",
+      "description": "An expo featuring talks on data science and analytics.",
+      "photos": "/Images/expo.jpg",
+      "key_takeaways": ["Big data applications", "Predictive modeling"]
+    },
+    {
+      "title": "AI Symposium 2020",
+      "date": "2020-06-25",
+      "description": "A symposium exploring artificial intelligence advancements.",
+      "photos": "/Images/seminar.jpg",
+      "key_takeaways": ["Deep learning techniques", "Ethical considerations"]
+    },
+    {
+      "title": "Blockchain Summit 2019",
+      "date": "2019-12-05",
+      "description": "A summit discussing blockchain technology and cryptocurrencies.",
+      "photos": "/Images/blockchain.jpg",
+      "key_takeaways": ["Decentralized finance", "Smart contracts"]
+    },
+    {
+      "title": "Tech Expo 2018",
+      "date": "2018-09-20",
+      "description": "An expo showcasing the latest gadgets and innovations.",
+      "photos": "/Images/tech-expo.jpg",
+      "key_takeaways": ["IoT devices", "Augmented reality"]
+    },
+    {
+      "title": "Digital Marketing Conference 2017",
+      "date": "2017-11-12",
+      "description": "A conference focusing on digital marketing strategies and trends.",
+      "photos": "/Images/conference.jpg",
+      "key_takeaways": ["Content marketing", "Conversion optimization"]
+    },
+    {
+      "title": "Startup Summit 2016",
+      "date": "2016-08-30",
+      "description": "A summit for startups to network and learn from industry leaders.",
+      "photos": "/Images/summit.jpg",
+      "key_takeaways": ["Pitching techniques", "Funding strategies"]
+    },
+    {
+      "title": "Mobile App Expo 2015",
+      "date": "2015-07-18",
+      "description": "An expo showcasing the latest mobile applications and technologies.",
+      "photos": "/Images/expo.jpg",
+      "key_takeaways": ["User experience design", "App monetization"]
+    },
+    {
+      "title": "E-commerce Conference 2014",
+      "date": "2014-12-03",
+      "description": "A conference discussing e-commerce trends and strategies.",
+      "photos": "/Images/conference.jpg",
+      "key_takeaways": ["Omni-channel retailing", "Customer retention"]
+    }
+  ],
+  "current_events": [
+    {
+      "title": "Webinar Series: Data Analytics",
+      "date": "2024-02-10",
+      "description": "A series of webinars discussing advanced data analytics techniques.",
+      "live_updates": true,
+      "countdown_timer": true,
+      "registration_link": "https://example.com/register"
+    },
+    {
+      "title": "Virtual Workshop: Machine Learning",
+      "date": "2024-02-15",
+      "description": "A hands-on workshop covering machine learning algorithms.",
+      "live_updates": true,
+      "countdown_timer": true,
+      "registration_link": "https://example.com/register"
+    },
+    {
+      "title": "Blockchain Seminar",
+      "date": "2024-02-20",
+      "description": "A seminar discussing the potential of blockchain technology.",
+      "live_updates": false,
+      "countdown_timer": true,
+      "registration_link": "https://example.com/register"
+    },
+    {
+      "title": "AI Conference",
+      "date": "2024-02-25",
+      "description": "A conference exploring the latest developments in artificial intelligence.",
+      "live_updates": false,
+      "countdown_timer": true,
+      "registration_link": "https://example.com/register"
+    },
+    {
+      "title": "Cybersecurity Summit",
+      "date": "2024-03-05",
+      "description": "A summit focusing on cybersecurity challenges and solutions.",
+      "live_updates": false,
+      "countdown_timer": true,
+      "registration_link": "https://example.com/register"
+    },
+    {
+      "title": "Tech Talk: Quantum Computing",
+      "date": "2024-03-10",
+      "description": "A tech talk introducing the concepts of quantum computing.",
+      "live_updates": false,
+      "countdown_timer": true,
+      "registration_link": "https://example.com/register"
+    },
+    {
+      "title": "Startup Bootcamp",
+      "date": "2024-03-15",
+      "description": "A bootcamp for aspiring entrepreneurs to refine their startup ideas.",
+      "live_updates": false,
+      "countdown_timer": true,
+      "registration_link": "https://example.com/register"
+    },
+    {
+      "title": "Digital Marketing Workshop",
+      "date": "2024-03-20",
+      "description": "A workshop covering digital marketing strategies for businesses.",
+      "live_updates": false,
+      "countdown_timer": true,
+      "registration_link": "https://example.com/register"
+    },
+    {
+      "title": "Cloud Computing Summit",
+      "date": "2024-03-25",
+      "description": "A summit discussing the latest trends in cloud computing.",
+      "live_updates": false,
+      "countdown_timer": true,
+      "registration_link": "https://example.com/register"
+    },
+    {
+      "title": "Big Data Symposium",
+      "date": "2024-04-01",
+      "description": "A symposium focusing on big data analytics and applications.",
+      "live_updates": false,
+      "countdown_timer": true,
+      "registration_link": "https://example.com/register"
+    }
+  ],
+  "upcoming_events": [
+    {
+      "title": "Startup Pitch Competition",
+      "date": "2024-04-10",
+      "registration_deadline": "2024-03-28",
+      "teaser": "Pitch your startup idea to investors and win funding!",
+      "speaker_profiles": [
+        {
+          "name": "John Doe",
+          "title": "CEO, Venture Capital Inc."
+        },
+        {
+          "name": "Jane Smith",
+          "title": "Founder, Startup Hub"
+        }
+      ]
+    },
+    {
+      "title": "Product Launch Event",
+      "date": "2024-05-05",
+      "registration_deadline": "2024-04-20",
+      "teaser": "Be the first to witness the unveiling of our latest product!",
+      "speaker_profiles": [
+        {
+          "name": "Alice Johnson",
+          "title": "Head of Product Development"
+        },
+        {
+          "name": "Mark Davis",
+          "title": "Marketing Director"
+        }
+      ]
+    },
+    {
+      "title": "AI Ethics Panel Discussion",
+      "date": "2024-05-15",
+      "registration_deadline": "2024-05-10",
+      "teaser": "Join the conversation on ethical considerations in AI development.",
+      "speaker_profiles": [
+        {
+          "name": "Dr. Emily Chen",
+          "title": "AI Researcher"
+        },
+        {
+          "name": "Dr. Michael Thompson",
+          "title": "Ethics Consultant"
+        }
+      ]
+    },
+    {
+      "title": "Blockchain Hackathon",
+      "date": "2024-06-01",
+      "registration_deadline": "2024-05-20",
+      "teaser": "Compete in building innovative blockchain solutions!",
+      "speaker_profiles": [
+        {
+          "name": "Alexandra Rodriguez",
+          "title": "Blockchain Developer"
+        },
+        {
+          "name": "Chris Evans",
+          "title": "Hackathon Organizer"
+        }
+      ]
+    },
+    {
+      "title": "Data Science Workshop",
+      "date": "2024-06-10",
+      "registration_deadline": "2024-06-05",
+      "teaser": "Learn practical skills in data science and machine learning.",
+      "speaker_profiles": [
+        {
+          "name": "Dr. Sarah Johnson",
+          "title": "Data Scientist"
+        },
+        {
+          "name": "James Miller",
+          "title": "Data Analyst"
+        }
+      ]
+    },
+    {
+      "title": "Tech Startup Expo",
+      "date": "2024-07-01",
+      "registration_deadline": "2024-06-20",
+      "teaser": "Discover cutting-edge innovations from emerging tech startups!",
+      "speaker_profiles": [
+        {
+          "name": "Laura Brown",
+          "title": "Startup Founder"
+        },
+        {
+          "name": "Samuel Wilson",
+          "title": "Investor"
+        }
+      ]
+    },
+    {
+      "title": "Cybersecurity Conference",
+      "date": "2024-07-15",
+      "registration_deadline": "2024-07-10",
+      "teaser": "Stay updated on the latest trends and threats in cybersecurity.",
+      "speaker_profiles": [
+        {
+          "name": "Dr. Richard Thompson",
+          "title": "Cybersecurity Expert"
+        },
+        {
+          "name": "Michelle Lee",
+          "title": "Security Analyst"
+        }
+      ]
+    },
+    {
+      "title": "Virtual Reality Symposium",
+      "date": "2024-08-01",
+      "registration_deadline": "2024-07-20",
+      "teaser": "Explore the future of virtual reality technology and applications.",
+      "speaker_profiles": [
+        {
+          "name": "Daniel Jackson",
+          "title": "VR Developer"
+        },
+        {
+          "name": "Sophia Martinez",
+          "title": "VR Designer"
+        }
+      ]
+    },
+    {
+      "title": "E-commerce Expo",
+      "date": "2024-08-15",
+      "registration_deadline": "2024-08-10",
+      "teaser": "Discover the latest trends and strategies in e-commerce.",
+      "speaker_profiles": [
+        {
+          "name": "John Adams",
+          "title": "E-commerce Specialist"
+        },
+        {
+          "name": "Emily White",
+          "title": "Digital Marketer"
+        }
+      ]
+    },
+    {
+      "title": "Cloud Computing Workshop",
+      "date": "2024-09-01",
+      "registration_deadline": "2024-08-20",
+      "teaser": "Learn about cloud computing platforms and services.",
+      "speaker_profiles": [
+        {
+          "name": "Michael Johnson",
+          "title": "Cloud Architect"
+        },
+        {
+          "name": "Emma Davis",
+          "title": "Cloud Solutions Engineer"
+        }
+      ]
+    }
+  ]
+}

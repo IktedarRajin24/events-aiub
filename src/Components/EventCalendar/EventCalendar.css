@@ -1,0 +1,6 @@
+.calendar {
+  height: calc(100vh - 365px);
+}
+.calendar-mobile {
+  height: calc(100vh - 200px) !important;
+}

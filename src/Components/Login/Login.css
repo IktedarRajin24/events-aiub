@@ -1,0 +1,6 @@
+.login {
+  height: 80vh;
+}
+.login-mobile {
+  height: calc(100vh - 200px) !important;
+}
