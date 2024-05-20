@@ -1,6 +1,66 @@
-.calendar {
-  height: calc(100vh - 365px);
+.rbc-calendar {
+  background-color: #42a1ff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
 }
-.calendar-mobile {
-  height: calc(100vh - 200px) !important;
+
+/* Header Styles */
+.rbc-toolbar {
+  background-color: #004ea2;
+  color: #fff;
+  padding: 10px;
+  height: 100px;
+}
+
+.rbc-toolbar-label {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.rbc-toolbar button {
+  background-color: #002d5c;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.rbc-toolbar button:hover {
+  background-color: #004b84;
+  color: #ffffff;
+}
+
+.rbc-toolbar button:focus {
+  outline: none;
+}
+
+/* Event Styles */
+.rbc-event {
+  background-color: #004ea2;
+  color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.rbc-event:hover {
+  background-color: #0056b3;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Day and Time Styles */
+.rbc-time-view .rbc-time-header {
+  background-color: #0054a9;
+}
+
+.rbc-day-slot .rbc-time-slot {
+  border-bottom: 1px solid #dee2e6;
+}
+.rbc-date-cell > .rbc-button-link {
+  font-size: 20px;
+}
+
+.rbc-event {
+  font-size: 14px;
 }

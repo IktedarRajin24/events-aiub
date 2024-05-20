@@ -15,7 +15,7 @@ const Header = () => {
       <div className="md:flex justify-between items-center hidden">
         <div className="2xl:w-1/4 w-1/3 my-2 cursor-pointer">
           <Link to="/">
-            <img src="/Logo/aiub-logo.png" alt="aiub-logo" />
+            <img src="/Logo/header-logo.png" alt="aiub-logo" />
           </Link>
         </div>
         <div className="2xl:w-1/5 w-1/3 my-2 px-5 font-semibold text-[#004ea2] ">

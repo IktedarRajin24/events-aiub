@@ -10,17 +10,47 @@ import { useLoaderData } from "react-router-dom";
 
 const EventCalendar = () => {
   const events = useLoaderData();
-  const date = new Date(events.current_events.date);
-  const presentEvents = events.current_events;
-  console.log(events.current_events[0].date);
+
+  function extractEventDetails(events) {
+    const allEvents = [];
+
+    const formatEvent = (event) => {
+      const startDate = new Date(event.date);
+      const endDate = new Date(startDate);
+      endDate.setDate(startDate.getDate() + 1);
+
+      return {
+        title: event.title,
+        start: startDate,
+        end: endDate,
+      };
+    };
+
+    events.past_events.forEach((event) => {
+      allEvents.push(formatEvent(event));
+    });
+    events.current_events.forEach((event) => {
+      allEvents.push(formatEvent(event));
+    });
+    events.upcoming_events.forEach((event) => {
+      allEvents.push(formatEvent(event));
+    });
+
+    return allEvents;
+  }
+
+  const eventsArray = extractEventDetails(events);
+
   return (
     <div className="w-full md:calendar calendar-mobile">
       <Calendar
         localizer={localizer}
-        events={events.current_events}
+        events={eventsArray}
+        startAccessor="start"
+        endAccessor="end"
         style={{
-          height: "80%",
-          width: "80%",
+          height: "80vh",
+          width: "50%",
           margin: "80px auto 20px",
         }}
       />
